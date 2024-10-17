@@ -1,0 +1,18 @@
+.highlight-yellow { background-color: yellow; }
+.highlight-green { background-color: lightgreen; }
+.highlight-blue { background-color: lightblue; }
+.highlight-pink { background-color: pink; }
+
+.highlight-color-popup {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.highlight-color-popup button {
+  margin: 2px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}

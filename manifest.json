@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Text Highlighter and Saver",
+  "version": "1.0",
+  "description": "Highlight, color, and save text from web pages",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
